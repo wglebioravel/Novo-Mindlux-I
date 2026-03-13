@@ -71,7 +71,7 @@ export default function DashboardScreen() {
   return (
     <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
       <View style={styles.header}>
-        <Text style={styles.greeting}>Confia</Text>
+        <Text style={styles.greeting}>Sicof</Text>
         <View style={styles.monthSelector}>
           <TouchableOpacity onPress={() => setMonthOffset(prev => prev - 1)} style={styles.monthBtn}>
             <Feather name="chevron-left" size={20} color={COLORS.primary} />
